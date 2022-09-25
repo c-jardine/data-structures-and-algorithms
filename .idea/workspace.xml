@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbcdee1b-4bb4-491c-83a6-1a58c815dac0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbcdee1b-4bb4-491c-83a6-1a58c815dac0" name="Changes" comment="Initial commit.">
+      <change afterPath="$PROJECT_DIR$/src/lists/KSinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lists/KSinglyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collections.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lists/KArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/KArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lists/KArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lists/KArrayListTest.java" afterDir="false" />
     </list>
@@ -63,6 +64,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.KArrayListTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="collections" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collections" />
       <extension name="coverage">
@@ -95,13 +103,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KSinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lists" />
+      <option name="MAIN_CLASS_NAME" value="lists.KSinglyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lists in collections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lists" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.KSinglyLinkedListTest" />
+      <item itemvalue="JUnit.lists in collections" />
       <item itemvalue="JUnit.KArrayListTest" />
       <item itemvalue="JUnit.KArrayListTest.testInit" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.KArrayListTest" />
+        <item itemvalue="JUnit.KSinglyLinkedListTest" />
+        <item itemvalue="JUnit.lists in collections" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.KArrayListTest.testInit" />
       </list>
     </recent_temporary>
@@ -129,10 +172,16 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/collections$KArrayListTest.ic" NAME="KArrayListTest Coverage Results" MODIFIED="1664047484666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/collections$KArrayListTest.ic" NAME="KArrayListTest Coverage Results" MODIFIED="1664134488665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lists.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/collections$KSinglyLinkedListTest.ic" NAME="KSinglyLinkedListTest Coverage Results" MODIFIED="1664137338957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lists.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/data_structures_and_algorithms$KArrayListTest.ic" NAME="KArrayListTest Coverage Results" MODIFIED="1664083041171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lists.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/collections$lists_in_collections.ic" NAME="lists in collections Coverage Results" MODIFIED="1664136182238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lists.*</FILTER>
     </SUITE>
   </component>
